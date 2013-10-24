@@ -1,0 +1,33 @@
+#food_assessment {
+    width: 547px;
+    height: 275px;
+    background-image: url(HomePage/Assessment/gradeBorder_03.png);
+    background-repeat: no-repeat;
+    padding: 45px 25px 25px 40px;
+}
+
+#food_name {
+    float: left;
+}
+
+#cantin {
+    float:left;
+    margin-left: 10%;
+}
+
+#food_grades {
+    margin-top:50px;
+}
+
+#your_food_grades {
+    margin-top: 40px;
+}
+
+.star {
+    margin-left: 6px;
+}
+
+.food_Text {
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+}

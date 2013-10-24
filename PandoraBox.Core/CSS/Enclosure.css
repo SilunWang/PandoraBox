@@ -1,0 +1,11 @@
+#enclosure_icon {
+    float: left;
+}
+
+#enclosure_text {
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}

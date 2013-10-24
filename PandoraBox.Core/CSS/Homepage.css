@@ -1,0 +1,278 @@
+body{ 
+    position:relative;
+    margin-top:0px;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+.background
+{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#stateColumn {
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-image:url(HomePage/menu/black_stripe.png);
+    z-index:1;
+    width:110px;
+    height:100%;
+}
+#Module_newThings {
+    margin-top:25px;
+}
+#MyBackGround{
+    background-image:url(HomePage/HomePageBack/blackRectangle.png);
+    background-repeat:repeat-x repeat-y;
+    width:1148px;
+    height:100%;
+    position:fixed;
+    right:0px;
+    z-index:-1;
+}
+#mainPart{
+    width:1148px;
+    height:768px;
+    float:right;
+    z-index:1;
+}
+#banner{    
+    position:relative;
+    background-image:url(HomePage/banner/banner_02.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height:250px;
+    overflow:visible;
+}
+#search {
+    position:absolute;
+    right:45px;
+    top:117px;
+}
+#searchInput{
+    position:absolute;
+    top:122px;
+    right:120px;
+}
+.search_text{
+    width:180px; 
+    height:35px;
+    overflow:hidden;
+}
+#logout {
+    position:absolute;
+    right:110px;
+    top:45px;
+}
+#headImg{
+	position:absolute;	
+	width:135px;
+	height:135px;
+	left:58px;
+	top:30px;
+	z-index:1;
+}
+#headBorder {
+    position:absolute;	
+	width:171px;
+	height:167px;
+    left:40px;
+	top:15px;
+	z-index:2;
+}
+#sortStandard {
+    position:absolute;
+    top:250px;
+    right:0px;
+}
+#dialog
+{
+    position:fixed;
+    z-index:3;
+    display:none;
+    margin:0px auto;
+}
+#firstModule{
+    position:fixed;
+    margin-top:0px;
+    margin-left:4%;
+    width:40%;
+}
+#nameOfModule{  
+    position:absolute;
+    top:-7px;
+    left:4px;
+}
+#tagText {
+    position:absolute;
+    z-index:2;
+    left:60px;
+    top:17px;
+}
+#tag {
+    margin-left:20px;
+    float:left;
+    z-index:1;
+}
+#ReturnButton {
+    float:left;
+    margin-left:15px;
+}
+
+
+
+
+#publishNews {
+    position:absolute;
+    left:20px;
+    top:70px;
+    z-index:5;
+}
+#NewThings {
+    position:relative;
+    width:333px;
+    z-index:1;
+}
+#publishBox {
+    position:absolute;
+    left:20px;
+    top:13px; 
+    z-index:1;
+}
+.publishText{
+    width:285px; 
+    height:116px;
+    overflow:hidden;
+    z-index:1;
+}
+#TextNews {
+    overflow:auto;
+    z-index:1;
+}
+#upLoadPicture{
+    position:absolute;
+    top:150px;
+    left:8px;
+    z-index:1;
+}
+#publish {
+    position:absolute;
+    top:150px;
+    left:180px;
+    z-index:1;
+}
+#fileInform
+{
+    position:absolute;
+    display:none;
+    top:210px;
+    left:40px;
+}
+#imageUrl
+{
+    position:absolute;
+    display:none;
+}
+
+
+#secondModule{
+    margin-left:43%; 
+    width:547px;
+}
+#listOfSubModule{
+    position:relative;
+    height:70px;
+}
+#director_background {
+    position:absolute;
+    left:-29px;
+    top:-20px;
+}
+#leftButton {
+    position:absolute;
+}
+#Director1 {
+    position:absolute;
+    left:29px;
+}
+#Director2 {
+    position:absolute;
+    left:151px;
+}
+#Director3 {
+    position:absolute;
+    left:273px;
+}
+#Director4 {
+    position:absolute;
+    left:395px;
+}
+#directorText_01 {
+    position:absolute;
+    width:122px;
+    left:39px;
+    top:10px;
+}
+#directorText_02 {
+    position:absolute;
+    width:122px;
+    left:161px;
+    top:10px;
+}
+#directorText_03 {
+    position:absolute;
+    width:122px;
+    left:283px;
+    top:10px;
+}
+#directorText_04 {
+    position:absolute;
+    width:122px;
+    left:405px;
+    top:10px;
+}
+.DirectorText {
+    margin:0px auto;
+}
+#rightButton {
+    position:absolute;
+    right:0px;
+}
+#grade {
+
+}
+#events{
+    margin-top:8px;
+    overflow:auto;
+	zoom:1;
+}
+#PageChange {
+    height:42px;
+}
+#LastPage {
+    float:left;
+}
+#NextPage {
+    float:right;
+}
+#outLoad
+{
+    
+}
+#MyUpload
+{
+    position:fixed;
+    display:none;
+    z-index:2000;
+    height:200px;
+    width:390px;
+    left:30%;
+    top:10%;
+}

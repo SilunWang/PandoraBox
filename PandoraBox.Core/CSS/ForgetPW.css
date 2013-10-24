@@ -1,0 +1,71 @@
+﻿#loginPart {
+    position: relative;
+    width: 301px;
+    height: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:180px;
+}
+.mainbg
+{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+}
+#dialog{
+    background-image:url(backgrounds/dialog.png);
+    width:273px;
+    height:73px;
+    position:absolute;
+    display:none;
+    z-index:3;
+    left:250px;
+    top:115px;
+}
+#inform_text{
+    margin-top:22px;
+    margin-left:55px;
+}
+#frame{
+	position:absolute;
+	z-index:1;
+}
+#UserName {
+    position:absolute;
+    left:65px;
+    top:92px;
+    z-index:2;
+}
+#dialog{
+    background-image:url(backgrounds/dialog.png);
+    width:273px;
+    height:73px;
+    position:absolute;
+    z-index:3;
+    left:250px;
+    top:115px;
+}
+#inform_text{
+    margin-top:22px;
+    margin-left:55px;
+}
+#Password {
+    position:absolute;
+    left:65px;
+    top:172px;
+    z-index:2;
+}
+
+
+#forgetPassword{
+	position:absolute;
+	z-index:2;
+	left:10px;
+    margin-left: 60px;
+	bottom:3px;
+}

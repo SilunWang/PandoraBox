@@ -1,0 +1,169 @@
+body {
+    position: relative;
+    margin-top: 0px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.popupbox{
+	width:530px;
+	height:709px;
+	background-color:white;
+	background-repeat:no-repeat;
+	float: left;
+    display:none;
+	position: fixed;
+	top: 1%; left: 25%;
+	z-index: 9;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+}
+
+#stateColumn {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(HomePage/menu/black_stripe.png);
+    z-index: 1;
+    width: 110px;
+    height:100%;
+}
+
+#mainPart {
+    position: relative;
+    width: 1000px;
+    height: 768px;
+    float: right;
+    margin-right: 150px;
+    z-index: 1;
+}
+
+#MyBlackGround {
+    background-image: url(HomePage/HomePageBack/blackRectangle.png);
+    background-repeat: repeat-x repeat-y;
+    width: 1000px;
+    height: 100%;
+    position: fixed;
+    right: 150px;
+    z-index: -1;
+}
+
+#MyInfo {
+    background-image: url(HomePage/personalInformation/personal_02.png);
+    background-repeat: no-repeat;
+    width: 701px;
+    height: 100%;
+    margin-left: 160px;
+    position: fixed;
+    z-index: 0;
+}
+#warnningDialog{
+    background-image:url(backgrounds/dialog.png);
+    width:273px;
+    height:73px;
+    display:none;
+    position:absolute;
+    z-index:3;   
+    left:560px;
+    top:50px;
+}
+#inform_text{
+    margin-top:22px;
+    margin-left:55px;
+    z-index:4;
+}
+#headImage {
+    position: relative;
+    width: 135px;
+    height: 135px;
+    margin-left: 85px;
+    margin-top: 68px;
+}
+.headImageStyle
+{
+    width:100%;
+    overflow:hidden;
+}
+
+
+#myName {
+    position: absolute;
+    left: 153px;
+    top: 104px;
+}
+
+#mySchool {
+    position: absolute;
+    left: 153px;
+    top: 223px;
+}
+
+#myDepartment {
+    position: absolute;
+    left: 417px;
+    top: 223px;
+}
+
+myHead {
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+#myHeadBorder {
+    position: absolute;
+    width: 141px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+#information {
+    position: relative;
+}
+
+.myTextBox {
+    filter: alpha(opacity=70);
+    opacity: 0.70;
+}
+#save {
+    width: 165px;
+    height: 56px;
+    overflow:hidden;
+    position:absolute;
+    top:509px;
+    left:141px;
+}
+
+#changePassword {
+    position:absolute;
+    width: 165px;
+    height: 54px;
+    overflow:hidden;
+        top:511px;
+    left:344px;
+}
+#man {
+    position:absolute;
+    left:465px;
+    top:108px;
+}
+#woman {
+        position:absolute;
+    left:520px;
+    top:108px;
+}

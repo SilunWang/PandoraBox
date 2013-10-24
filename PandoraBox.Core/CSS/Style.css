@@ -1,0 +1,63 @@
+body{
+}
+#main{
+	width:80%;
+	margin:0px auto;
+}
+#container{
+	position:relative;
+	margin-bottom:30px;
+	height:150px;
+}
+#stripe{
+	position:absolute;
+	height:150px;
+    overflow:hidden;
+	width:100%;
+	z-index:1;
+}
+#headImg{
+	position:absolute;
+	visibility: visible;	
+	width:100px;
+	height:100px;
+	left:5%;
+	top:25px;
+	z-index:2;
+}
+#nameOfModule{
+	margin-left:5%;
+	height:40px;
+	width:20%;
+	float:left;
+}
+#firstModule{
+	height:40px;
+	margin-bottom:30px;
+}
+#listOfSubModule{
+	width:65%;
+	margin-left:5%;
+	float:left;
+	height:40px;
+}
+#secondModule{
+	
+}
+#leftModule{
+	overflow:auto;
+	zoom:1;
+	width:20%;
+	margin-left:5%;
+	float:left;
+}
+#rightModule{
+	overflow:hidden;
+	zoom:1;
+	width:65%;
+	margin-left:5%;
+	float:left;
+}
+#publishNews{
+	margin-bottom:40px;
+}

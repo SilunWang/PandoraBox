@@ -1,0 +1,102 @@
+﻿body{
+    
+}
+.mainbg
+{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+}
+#dialog{
+    background-image:url(backgrounds/dialog.png);
+    width:273px;
+    height:73px;
+    position:absolute;
+    z-index:3;
+    display:none;
+    left:250px;
+    top:115px;
+}
+#inform_text{
+    margin-top:22px;
+    margin-left:55px;
+
+    z-index:4;
+}
+div
+{
+    height:20px;
+    margin: 5px;
+}
+#mainpart
+{
+   position:relative;
+    background-image:url(backgrounds/personalInformation.png);
+    width: 300px;
+    height: 300px;
+    font-weight:500;
+    font-size:17px;
+    font-family: 华文细黑;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:7%;
+}
+
+.row1
+{
+    position:relative;
+    bottom:-70px;
+}
+.row2
+{
+    position:relative;
+    bottom:-82px;
+}
+.row3
+{
+    position:relative;
+    bottom:-94px;
+}
+.row4
+{
+    position:relative;
+    bottom:-106px;
+}
+.row5
+{
+    position:absolute;
+    top: 245px;
+}
+.left
+{
+    color:white;
+    float:left;
+    width: 30%;
+    text-align: right;
+}
+.right
+{
+    float:left;
+    width: 40%;
+}
+
+#submit
+{
+    float:left;
+    margin-left:10px;
+    width: 125px;
+    height: 35px;
+}
+#password
+{
+    margin-left:20px;
+    float:left;
+    width: 125px;
+    height: 35px;
+    left: 30px;
+}

@@ -1,0 +1,58 @@
+#fr_contents {
+    width: 100%;
+    margin:0px auto;
+    overflow: auto;
+    background-repeat:repeat-x repeat-y;
+    background-image: url(Homepage/Information/WhiteBack_03.png);
+
+}
+#fr_main {
+    height:75px;
+    padding:15px 20px 15px 25px;
+}
+#fr_head {
+    width: 75px;
+    height: 75px;
+    float:left;
+}
+#fr_middle {
+    background-image:url(Homepage/Response/blackBackground_03.png);
+    height:75px;
+    float:left;
+    margin-left:25px;
+    width:72%;
+}
+#fr_userName {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+#fr_email {
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+#fr_school {
+    margin-top: 0px;
+    float: left;
+    margin-left: 5%;
+}
+
+#fr_department {
+    margin-top: 0px;
+    margin-left:40%;
+}
+.opacity_style {
+    filter:alpha(opacity=60);
+    opacity:0.60;
+}
+#fr_right {
+    height:75px;
+    float:right;
+}
+.imageStyle
+{
+    width:100%;
+    overflow:hidden;
+}

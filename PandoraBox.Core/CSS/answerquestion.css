@@ -1,0 +1,36 @@
+﻿body{
+    background-image:url(backgrounds/login.jpg);
+    background-repeat:no-repeat;
+    height:100%;
+}
+div
+{
+    margin: 10px;
+}
+#mainpart {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+}
+#QuestionLabel {
+    width: 270px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#AnswerText {
+    width: 270px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ImageButton1
+{
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,65 @@
+#body {
+}
+
+#assessment {
+    width: 547px;
+    height: 275px;
+    background-image: url(HomePage/Assessment/gradeBorder_03.png);
+    background-repeat: no-repeat;
+    padding:38px 25px 25px 40px;
+}
+
+#introduction {
+}
+
+
+#Teacher {
+    float: left;
+}
+#two {
+    margin-top:10px;
+}
+#isExamal {
+    margin-left:60px;
+    float:left;
+}
+
+#grades {
+    margin-top: 40px;
+}
+
+#difficulty {
+    margin-top: 35px;
+}
+
+.IntroductionText {
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+}
+
+.Text {
+    float: left;
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+}
+
+.star {
+    height: 15px;
+    width: 13px;
+    float: left;
+    margin-left: 10px;
+}
+
+.Text2 {
+    float: left;
+    margin-left: 60px;
+    filter: alpha(opacity=60);
+    opacity: 0.60;
+}
+
+.star2 {
+    height: 15px;
+    width: 13px;
+    float: left;
+    margin-left: 10px;
+}

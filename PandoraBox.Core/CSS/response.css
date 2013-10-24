@@ -1,0 +1,43 @@
+#ResponsePart
+{
+    background-image: url(Homepage/Response/blackBackground_03.png);
+    background-repeat: repeat-y repeat-x;
+    padding: 15px 15px 15px 20px;
+    margin:0 auto;
+    overflow: auto;
+}
+
+#ReheadImage
+{
+    margin-top:-10px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#Reother
+{
+    margin-left: 65px;
+}
+
+#Retext
+{
+    text-align: justify;
+}
+
+#ResecondOther
+{
+    margin-top: 15px;
+}
+
+#Retime
+{
+    float: left;
+}
+
+#ReresponseButton
+{
+    float: right;
+    margin-top: 2px;
+    margin-right: 5px;
+}

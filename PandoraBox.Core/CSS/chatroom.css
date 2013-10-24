@@ -1,0 +1,119 @@
+﻿body{
+    
+}
+.mainbg
+{
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+}
+.main1
+{
+    visibility: visible;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+    left:100px;
+    top:50px;
+}
+.main2
+{
+    visibility: visible;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+    left: 600px;
+    top:50px;
+}
+.main3
+{
+    visibility: visible;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+    width: 1536px;
+    height: 462px;
+    left:100px;
+    top:430px;
+}
+#mainpart
+{
+    position:relative;
+}
+div
+{
+    margin:6px;
+}
+.left
+{
+    float:left;
+    width:520px;
+    height:600px;
+}
+.right
+{
+    float:left;
+    width: 250px;
+}
+.public
+{
+    position:absolute;
+    width:500px;
+    height:250px;
+    top: 52px;
+    left: 12px;
+}
+.PublicTextBox
+{
+    position:relative;
+    width:430px;
+    height:330px;
+    left:97px;
+}
+.private
+{
+    position:absolute;
+    width:500px;
+    height:100px;
+    top:330px;
+}
+.ResponsePanel
+{
+    position:absolute;
+   width:430px;
+    height:100px;
+    top:440px;
+}
+
+.Button2
+{
+    position:relative;
+    width:60px;
+    height:30px;
+    margin-top: 0px;
+    left:400px;
+}
+.FriendList
+{
+    position:relative;
+    width:214px;
+    height:435px;
+    left:65px;
+    top:50px;
+}
+.ResTB
+{
+    position:relative;
+    left:97px;
+    width:430px;
+    height:100px;
+}

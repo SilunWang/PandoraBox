@@ -1,0 +1,90 @@
+﻿body{
+    background-image:url(backgrounds/background1.jpg);
+    background-repeat:no-repeat;
+    height:100%;
+}
+#mainpart
+{
+    background-image:url(backgrounds/pwbg.png);
+    background-repeat:no-repeat;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    font-family: 微软雅黑;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+}
+#dialog{
+    background-image:url(backgrounds/dialog.png);
+    width:273px;
+    height:73px;
+    position:absolute;
+    display:none;
+    z-index:3;
+    left:270px;
+    top:90px;
+}
+#inform_text{
+    margin-top:22px;
+    margin-left:55px;
+}
+.left
+{
+    color:white;
+    float:left;
+    width: 35%;
+    margin-top:2px;
+    margin-left:5%;
+    text-align: right;
+}
+.right
+{
+    float:left;
+    margin-left:2%;
+    width: 50%;
+}
+.row1
+{
+    position:absolute;
+    width:100%;
+    top:70px;
+}
+.row2
+{
+    position:absolute;
+    width:100%;
+    top:105px;
+}
+.row3
+{
+    position:absolute;
+    width:100%;
+    top:140px;
+}
+.row4
+{
+    position:absolute;
+    width:100%;
+    top:175px;
+}
+.row5
+{
+    position:absolute;
+    width:100%;
+    top:210px;
+}
+.row6
+{
+    position:absolute;
+    width:100%;
+    top:250px;
+}
+
+#submit
+{
+    width: 156px;
+    height:47px;
+    margin-left:auto;
+    margin-right:auto;
+}

@@ -1,0 +1,29 @@
+#b_contents {
+    width: 100%;
+    margin:0px auto;
+    overflow: auto;
+    background-repeat:repeat-x repeat-y;
+    background-image: url(Homepage/Information/WhiteBack_03.png);
+}
+#b_main {
+    height:65px;
+    padding:15px 20px 15px 25px;
+}
+#part1 {
+    position:relative;
+    background-image:url(Homepage/Response/blackBackground_03.png);
+    float:left;
+    height:65px;
+    width:70%;
+}
+#b_user {
+    margin-top:10px;
+    margin-left:20px;
+}
+#b_time {
+    margin-top:10px;
+    margin-left:20px;
+}
+#b_outButton {
+    float:right;
+}

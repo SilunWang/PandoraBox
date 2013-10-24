@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PandoraBox", ".", "{AD564DB0-63AD-4D7B-997D-85397D8E5616}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{32429f5b-6e39-407f-a682-96484aac3078}|BitmapCutter.Core.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/PandoraBox"
+		Debug.AspNetCompiler.PhysicalPath = "..\PandoraBox\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PandoraBox\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PandoraBox"
+		Release.AspNetCompiler.PhysicalPath = "..\PandoraBox\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PandoraBox\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2629"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapCutter.Core", "..\BitmapCutter.Core\BitmapCutter.Core.csproj", "{32429F5B-6E39-407F-A682-96484AAC3078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD564DB0-63AD-4D7B-997D-85397D8E5616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD564DB0-63AD-4D7B-997D-85397D8E5616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD564DB0-63AD-4D7B-997D-85397D8E5616}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD564DB0-63AD-4D7B-997D-85397D8E5616}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{32429F5B-6E39-407F-A682-96484AAC3078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32429F5B-6E39-407F-A682-96484AAC3078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32429F5B-6E39-407F-A682-96484AAC3078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32429F5B-6E39-407F-A682-96484AAC3078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

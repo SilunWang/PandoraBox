@@ -1,0 +1,81 @@
+﻿.bg
+{
+    visibility: visible;
+    position: fixed;
+    z-index: -2;
+    overflow: hidden;
+}
+#DialogRect
+{
+    position:fixed;
+    z-index:10;
+    top:10%;
+    left:40%;
+}
+
+#mainpart
+{
+    z-index:10;
+    position:relative;
+    left:30px;
+}
+#input
+{
+     z-index:10;
+    position:relative;
+    left:56px;
+    top: 94px;
+}
+.UPanel
+{
+    position:relative;
+     z-index:10;
+    width:370px;
+    left: 20px;
+}
+.Panel
+{
+    position:relative;
+     z-index:10;
+     top:120px;
+    width:370px;
+    left:30px;
+}
+.DialogText
+{
+    position:relative;
+    z-index:10;
+    width:300px;
+    height:280px;
+    left:17px;
+    top:1px;
+    background-color: transparent; 
+}
+.ResponseText
+{
+     z-index:10;
+    position:relative;
+    bottom:35px;
+    width:250px;
+    height:75px;
+    background-color: transparent; 
+}
+.EnterBT
+{
+     z-index:10;
+    position:relative;
+    bottom:48px;
+    left:-4px;
+    height: 33px;
+    width: 60px;
+}
+.cancelbt
+{
+    position:relative;
+    z-index:11;
+    float:right;
+    top:-13px;
+    left:61px;
+    width:40px;
+    height:40px;
+}

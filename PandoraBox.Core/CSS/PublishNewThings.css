@@ -1,0 +1,33 @@
+#NewThings {
+    position:relative;
+    width:333px;
+    z-index:1;
+}
+#TextBox {
+    position:absolute;
+    left:20px;
+    top:13px; 
+    z-index:1;
+}
+.text{
+    width:285px; 
+    height:116px;
+    overflow:hidden;
+    z-index:1;
+}
+#TextNews {
+    overflow:auto;
+    z-index:1;
+}
+#UpLoadPicture {
+    position:absolute;
+    top:150px;
+    left:2px;
+    z-index:1;
+}
+#Publish {
+    position:absolute;
+    top:150px;
+    left:192px;
+    z-index:1;
+}
